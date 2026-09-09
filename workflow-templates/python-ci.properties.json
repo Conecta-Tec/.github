@@ -1,0 +1,7 @@
+{
+  "name": "Conecta · Python CI",
+  "description": "Instala dependências e executa qualidade e testes em projetos Python.",
+  "iconName": "octicon beaker",
+  "categories": ["Continuous integration", "Python"],
+  "filePatterns": ["pyproject.toml", "requirements.txt"]
+}
