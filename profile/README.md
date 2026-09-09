@@ -2,82 +2,123 @@
 
 ![Conecta Tecnologia](./assets/conecta-banner.svg)
 
-### Educação, ciência e tecnologia para ampliar o potencial humano.
+<br/>
 
-[![Site](https://img.shields.io/badge/conectaeduc.com.br-02139D?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conectaeduc.com.br/)
-[![LinkedIn](https://img.shields.io/badge/Conecta_Educação-605BE5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/conectaeduc/)
-![Segurança](https://img.shields.io/badge/segurança_por_padrão-079587?style=for-the-badge&logo=github&logoColor=white)
-![Privacidade](https://img.shields.io/badge/LGPD_by_design-FF7E57?style=for-the-badge)
+[![Site oficial](https://img.shields.io/badge/SITE_OFICIAL-02139D?style=for-the-badge&logo=googlechrome&logoColor=white)](https://conectaeduc.com.br/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-605BE5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/conectaeduc/)
+[![Engineering Hub](https://img.shields.io/badge/ENGINEERING_HUB-079587?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Conecta-Tec/engineering-hub)
+
+<br/>
+
+**Educação, ciência e tecnologia para ampliar o potencial humano.**
 
 </div>
 
-## Tecnologia que conecta para transformar
+## O ecossistema que estamos construindo
 
-Somos o núcleo de tecnologia da **Conecta Educação Socioemocional**. Construímos produtos digitais, plataformas e sistemas internos que aproximam escolas, educadores, estudantes e famílias de experiências de aprendizagem mais humanas, criativas e orientadas por evidências.
+<table>
+<tr>
+<td width="25%" valign="top">
+<h3>🟣 Conecta</h3>
+Produtos e serviços digitais que transformam educação socioemocional em experiências para escolas, educadores, estudantes e famílias.
+</td>
+<td width="25%" valign="top">
+<h3>🟠 PlenaMente</h3>
+Tecnologia do ecossistema Conecta dedicada a experiências e jornadas de desenvolvimento socioemocional.
+</td>
+<td width="25%" valign="top">
+<h3>🔵 Plataforma</h3>
+Identidade, integrações, dados, componentes e infraestrutura compartilhada entre nossos produtos.
+</td>
+<td width="25%" valign="top">
+<h3>🟢 Operações</h3>
+Sistemas internos e automações que tornam nosso trabalho mais simples, rápido e confiável.
+</td>
+</tr>
+</table>
 
-Nosso trabalho une engenharia de software, educação socioemocional e inovação pedagógica para transformar boas ideias em experiências simples, seguras e escaláveis.
+## Painel do time
 
-## Nosso ecossistema
-
-| Frente | O que construímos |
+| Quero… | Ir para |
 |---|---|
-| **Conecta** | Produtos e serviços digitais que sustentam a experiência educacional da Conecta. |
-| **PlenaMente** | Tecnologia do ecossistema Conecta dedicada ao desenvolvimento socioemocional. |
-| **Plataforma** | Componentes, integrações, dados, identidade e infraestrutura compartilhada. |
-| **Operações internas** | Automações e sistemas que tornam o trabalho do time mais simples e confiável. |
+| 🏠 Acessar a central de engenharia | **[Engineering Hub](https://github.com/Conecta-Tec/engineering-hub)** |
+| ➕ Solicitar um novo repositório | **[Abrir solicitação](https://github.com/Conecta-Tec/engineering-hub/issues/new?template=new_repository.yml)** |
+| 🔑 Pedir ou revisar um acesso | **[Solicitar acesso](https://github.com/Conecta-Tec/engineering-hub/issues/new?template=access_request.yml)** |
+| 🧰 Pedir suporte técnico | **[Abrir atendimento](https://github.com/Conecta-Tec/engineering-hub/issues/new?template=technical_request.yml)** |
+| 🚨 Registrar um incidente | **[Abrir incidente privado](https://github.com/Conecta-Tec/engineering-hub/issues/new?template=incident.yml)** |
+| 👥 Encontrar os times | **[Times da organização](https://github.com/orgs/Conecta-Tec/teams)** |
+| 📦 Encontrar código e serviços | **[Repositórios](https://github.com/orgs/Conecta-Tec/repositories)** |
+| 🛡️ Consultar segurança | **[Visão de segurança](https://github.com/orgs/Conecta-Tec/security)** |
 
-## Como construímos
+> O **Engineering Hub é privado**. Os atalhos operacionais funcionam para membros autorizados da organização.
 
-- 🔐 **Segurança e privacidade desde o início** — acesso mínimo, proteção de segredos e cuidado com dados pessoais.
-- 🧭 **Impacto antes de complexidade** — tecnologia existe para resolver problemas reais de pessoas reais.
-- 🧩 **Plataforma quando faz sentido** — compartilhamos capacidades sem criar abstrações prematuras.
-- ✅ **Qualidade verificável** — revisão, testes, automação e observabilidade fazem parte da entrega.
-- 📚 **Conhecimento que permanece** — decisões importantes ficam documentadas e acessíveis ao time.
-- ♿ **Experiências inclusivas** — acessibilidade e clareza são requisitos, não acabamento.
+## Nosso padrão de engenharia
 
-## Começando por aqui
+<div align="center">
+
+![2FA obrigatório](https://img.shields.io/badge/2FA-OBRIGATÓRIO-079587?style=flat-square)
+![Acesso mínimo](https://img.shields.io/badge/ACESSO-MÍNIMO-0015A8?style=flat-square)
+![Segredos protegidos](https://img.shields.io/badge/SEGREDOS-PROTEGIDOS-F72C8A?style=flat-square)
+![CI](https://img.shields.io/badge/CI-AUTOMATIZADA-605BE5?style=flat-square)
+![LGPD](https://img.shields.io/badge/LGPD-BY_DESIGN-FF7E57?style=flat-square)
+
+</div>
+
+- **Privacidade e segurança por design:** dados pessoais, credenciais e informações de escolas recebem proteção desde a concepção.
+- **Impacto antes de complexidade:** construímos a menor solução capaz de resolver bem o problema.
+- **Qualidade verificável:** revisão, testes, CI, observabilidade e rollback fazem parte da entrega.
+- **Acessibilidade como requisito:** clareza e inclusão não entram no final.
+- **Conhecimento compartilhado:** decisões importantes ficam registradas e reutilizáveis.
+
+## Playbook
 
 <table>
 <tr>
 <td width="33%" valign="top">
+<h3>01 · Começar</h3>
 
-### Para contribuir
-
-Leia o [guia de contribuição](../CONTRIBUTING.md), escolha uma issue e mantenha o pull request pequeno, testável e bem explicado.
-
-</td>
-<td width="33%" valign="top">
-
-### Para criar um projeto
-
-Siga os [padrões de repositório](../docs/REPOSITORY_STANDARDS.md) e comece com um dos nossos workflows oficiais.
+- [Como contribuir](../CONTRIBUTING.md)
+- [Padrões de repositório](../docs/REPOSITORY_STANDARDS.md)
+- [Princípios de engenharia](../docs/ENGINEERING_PRINCIPLES.md)
 
 </td>
 <td width="33%" valign="top">
+<h3>02 · Decidir</h3>
 
-### Para decisões técnicas
+- [Governança](../GOVERNANCE.md)
+- [Template de decisão](../docs/DECISION_TEMPLATE.md)
+- [Código de conduta](../CODE_OF_CONDUCT.md)
 
-Use o [template de decisão](../docs/DECISION_TEMPLATE.md) e registre contexto, alternativas e consequências.
+</td>
+<td width="33%" valign="top">
+<h3>03 · Operar</h3>
+
+- [Política de segurança](../SECURITY.md)
+- [Suporte](../SUPPORT.md)
+- [Workflows oficiais](../workflow-templates)
 
 </td>
 </tr>
 </table>
 
-## Guardrails da organização
+## Guardrails
 
-- Repositórios de produto e sistemas internos são **privados por padrão**.
-- Acesso é concedido por times; não existe permissão-base automática.
-- Todos os membros usam **2FA com métodos seguros**.
-- Secret scanning, push protection, CodeQL e Dependabot fazem parte do padrão.
-- Credenciais, dados pessoais e informações de escolas jamais entram no código ou nas issues.
-- Mudanças chegam à branch principal por pull request com revisão e CI.
+```text
+privado por padrão  →  acesso por time  →  pull request  →  CI  →  revisão  →  produção
+```
+
+1. Repositórios de produto e sistemas internos nascem privados.
+2. Acesso é concedido por times e pelo menor privilégio necessário.
+3. A branch principal é protegida e recebe mudanças revisadas.
+4. Secret scanning, push protection, CodeQL e Dependabot são obrigatórios.
+5. Cada serviço possui responsável, observabilidade, runbook e rollback.
 
 <div align="center">
 
 ---
 
-**Conecta Educação Socioemocional** · conectar emoções, criatividade e aprendizagem.
+### Conectar emoções, criatividade e aprendizagem.
 
-[Conheça a Conecta](https://conectaeduc.com.br/) · [Política de segurança](../SECURITY.md) · [Suporte](../SUPPORT.md)
+[conectaeduc.com.br](https://conectaeduc.com.br/) · [Segurança](../SECURITY.md) · [Governança](../GOVERNANCE.md)
 
 </div>
