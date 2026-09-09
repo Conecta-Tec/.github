@@ -1,40 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
   <title id="title">Conecta Tecnologia</title>
-  <desc id="desc">Banner colorido da organização de tecnologia da Conecta</desc>
+  <desc id="desc">Tecnologia que conecta educação, criatividade e desenvolvimento humano</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#0015A8"/>
-      <stop offset="0.52" stop-color="#4E36A3"/>
-      <stop offset="1" stop-color="#F72C8A"/>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#000B64"/>
+      <stop offset=".45" stop-color="#02139D"/>
+      <stop offset="1" stop-color="#4E36A3"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+    <radialGradient id="glowPink">
+      <stop stop-color="#F72C8A" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#F72C8A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan">
+      <stop stop-color="#1BC1FF" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#1BC1FF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop stop-color="#5EEAD4"/>
-      <stop offset="1" stop-color="#1BC1FF"/>
+      <stop offset=".48" stop-color="#1BC1FF"/>
+      <stop offset="1" stop-color="#FF7E57"/>
     </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#00115F" flood-opacity=".28"/>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#00052F" flood-opacity=".45"/>
     </filter>
   </defs>
-  <rect width="1200" height="360" rx="32" fill="url(#bg)"/>
-  <circle cx="1080" cy="44" r="168" fill="#FF7E57" opacity=".92"/>
-  <circle cx="1140" cy="286" r="116" fill="#5EEAD4" opacity=".9"/>
-  <circle cx="925" cy="315" r="72" fill="#1BC1FF" opacity=".52"/>
-  <path d="M-40 300 C210 195 350 405 610 268 S1000 155 1240 210" fill="none" stroke="url(#line)" stroke-width="12" stroke-linecap="round" opacity=".9"/>
-  <g fill="none" stroke="#fff" stroke-width="3" opacity=".28">
-    <circle cx="985" cy="115" r="26"/><circle cx="985" cy="115" r="46"/><circle cx="985" cy="115" r="66"/>
+
+  <rect width="1200" height="420" rx="36" fill="url(#background)"/>
+  <circle cx="1070" cy="10" r="280" fill="url(#glowPink)"/>
+  <circle cx="1100" cy="420" r="300" fill="url(#glowCyan)"/>
+
+  <g opacity=".22" stroke="#fff" fill="none">
+    <path d="M790 86L940 158L1090 90L1140 230L1000 332L838 280Z"/>
+    <circle cx="790" cy="86" r="7" fill="#5EEAD4"/>
+    <circle cx="940" cy="158" r="7" fill="#fff"/>
+    <circle cx="1090" cy="90" r="7" fill="#FF7E57"/>
+    <circle cx="1140" cy="230" r="7" fill="#5EEAD4"/>
+    <circle cx="1000" cy="332" r="7" fill="#fff"/>
+    <circle cx="838" cy="280" r="7" fill="#F72C8A"/>
   </g>
-  <g filter="url(#shadow)">
-    <rect x="72" y="72" width="64" height="64" rx="18" fill="#fff"/>
-    <path d="M92 104c0-13 10-23 23-23 8 0 15 4 19 10l-12 8a10 10 0 0 0-8-4 10 10 0 1 0 8 16l12 8c-4 7-11 11-20 11-12 0-22-8-22-19z" fill="#02139D"/>
-    <circle cx="126" cy="88" r="7" fill="#FF7E57"/>
+
+  <g transform="translate(72 62)" filter="url(#shadow)">
+    <rect width="76" height="76" rx="24" fill="#fff"/>
+    <circle cx="38" cy="38" r="22" fill="none" stroke="#02139D" stroke-width="9" stroke-dasharray="102 40" transform="rotate(-34 38 38)"/>
+    <circle cx="57" cy="19" r="8" fill="#FF7E57"/>
   </g>
-  <text x="72" y="205" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="62" font-weight="800" letter-spacing="-2">Conecta Tecnologia</text>
-  <text x="75" y="252" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="500" opacity=".92">Educação, ciência e tecnologia para ampliar o potencial humano.</text>
-  <g font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="1.8" fill="#fff">
-    <text x="76" y="315">CONSTRUIR</text>
-    <circle cx="194" cy="310" r="4" fill="#5EEAD4"/>
-    <text x="216" y="315">CONECTAR</text>
-    <circle cx="332" cy="310" r="4" fill="#FF7E57"/>
-    <text x="354" y="315">TRANSFORMAR</text>
+
+  <text x="72" y="205" font-family="Inter,Montserrat,Arial,sans-serif" font-size="76" font-weight="800" letter-spacing="-3" fill="#fff">Conecta</text>
+  <text x="74" y="252" font-family="Inter,Montserrat,Arial,sans-serif" font-size="23" font-weight="700" letter-spacing="7" fill="#5EEAD4">TECNOLOGIA</text>
+  <text x="74" y="302" font-family="Inter,Montserrat,Arial,sans-serif" font-size="22" font-weight="500" fill="#fff" opacity=".92">Construímos tecnologia para ampliar o potencial humano.</text>
+  <rect x="74" y="330" width="520" height="5" rx="3" fill="url(#accent)"/>
+
+  <g font-family="Inter,Montserrat,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.1">
+    <g transform="translate(724 352)">
+      <rect width="76" height="34" rx="17" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".25"/>
+      <text x="38" y="22" text-anchor="middle" fill="#fff">SER</text>
+    </g>
+    <g transform="translate(810 352)">
+      <rect width="106" height="34" rx="17" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".25"/>
+      <text x="53" y="22" text-anchor="middle" fill="#fff">CONECTAR</text>
+    </g>
+    <g transform="translate(926 352)">
+      <rect width="96" height="34" rx="17" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".25"/>
+      <text x="48" y="22" text-anchor="middle" fill="#fff">REFLETIR</text>
+    </g>
+    <g transform="translate(1032 352)">
+      <rect width="112" height="34" rx="17" fill="#fff" fill-opacity=".12" stroke="#fff" stroke-opacity=".25"/>
+      <text x="56" y="22" text-anchor="middle" fill="#fff">EVOLUIR</text>
+    </g>
   </g>
 </svg>
