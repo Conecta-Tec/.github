@@ -1,0 +1,7 @@
+{
+  "name": "Conecta · Node.js CI",
+  "description": "Instala dependências, executa lint, testes e build em projetos Node.js.",
+  "iconName": "octicon rocket",
+  "categories": ["Continuous integration", "JavaScript", "TypeScript"],
+  "filePatterns": ["package.json", "package-lock.json"]
+}
