@@ -1,0 +1,39 @@
+name: Decisão técnica
+description: Proponha uma decisão com impacto estrutural ou entre produtos
+title: "[ADR]: "
+labels:
+  - architecture
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Qual problema, restrição ou oportunidade exige uma decisão?
+    validations:
+      required: true
+  - type: textarea
+    id: criteria
+    attributes:
+      label: Critérios
+      description: O que precisa ser otimizado ou protegido?
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternativas consideradas
+      description: Compare benefícios, custos e riscos.
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: Recomendação
+      description: Qual opção você recomenda e por quê?
+    validations:
+      required: true
+  - type: textarea
+    id: rollout
+    attributes:
+      label: Adoção e rollback
+      description: Como implementar, validar e reverter?
