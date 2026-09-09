@@ -1,0 +1,48 @@
+name: Bug
+description: Relate um comportamento incorreto ou regressão
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto
+      description: Onde e quando o problema ocorre?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passos para reproduzir
+      description: Liste passos mínimos e objetivos.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Resultado esperado
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Resultado atual
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências
+      description: Inclua logs ou imagens sem dados sensíveis.
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Impacto
+      options:
+        - Baixo
+        - Médio
+        - Alto
+        - Crítico
+    validations:
+      required: true
