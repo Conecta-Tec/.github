@@ -1,6 +1,6 @@
 # Como contribuímos na Conecta
 
-Este guia é o ponto de partida para qualquer repositório da organização. Regras específicas do projeto podem complementar — nunca reduzir — estes padrões.
+Este guia é o ponto de partida para qualquer repositório da organização. Regras específicas do projeto podem complementar  nunca reduzir estes padrões.
 
 ## Antes de começar
 
